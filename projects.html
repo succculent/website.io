@@ -7,6 +7,7 @@
     		max-width: 95%;
     		overflow-x: hidden;
 		}
+
 		.sidenav {
 			margin: 0;
 			position: absolute;
@@ -40,11 +41,25 @@
 			padding: 70px 30px 30px 30px;
 		}
 
+		.aProject {
+			margin-top: 50px;
+		}
+
+		.aProject p {
+			margin-left: 20px;
+		}
+
 		h1 {
 			font-family: Console, monospace;
   			font-size: 14px;
   			font-weight: normal;
   			text-decoration: underline;
+		}
+
+		h2 {
+			font-family: Console, monospace;
+			font-size: 14px;
+			font-weight: bold;
 		}
 
 		p {
@@ -66,13 +81,83 @@
 <!-- body -->
 	<div class="main">
 		<h1>Projects</h1>
-		<br>
-		<p>I am Ada Toydemir.</p>
-		<br>
-		<p>Welcome to my website!</p>
-		<br>
-		<p>I am an engineer, artist, and musician and here is a collection of stuff I do.</p>
-		<br>
+		<div class="aProject">
+			<h2>Hardware Sound Re-Synthesizer </h2>
+			<p>
+				Synthesis and synthesizers are extremely powerful tools for music production and for the music industry, but have steep uphill learning curves. 
+				This project is a means of making synthesis faster and more accessible. 
+				Using Raspberry Pi technology, Maximillian C++ Library, and Machine Learning, we are developing a full fledged, industry ready hardware synthesizer which is able to recreate any given sample in the bounds of the synthesizer. 
+				I am leading the project with funding and resources provided by the Ahmanson Lab at USC. 
+				Track progress on the project with our
+				<a href="https://github.com/succculent/resynth">GitHub</a>.
+				We hope to have a kickstarter for this project soon, stay tuned if you are interested!
+			</p>
+		</div>
+		<div class="aProject">
+			<h2>Sample Generator</h2>
+			<p>
+				The use of samples within music production has skyrocketed since the invention of samplers and it's incorporation into Hip-Hop. 
+				Samples speed up the production process allowing for musicians to find and follow inspiration to the end of the song without losing it synthesizing every sound they use. 
+				Because of this, the quality and uniqueness of music production is often defined by the samples a musician uses. 
+				Unique Samples are
+				<br>&nbsp&nbsp&nbsp&nbsp(1) Hard to find, giving musicians with more connections an advantage
+				<br>&nbsp&nbsp&nbsp&nbsp(2) Expensive, giving well established musicians an advantage
+				<br>&nbsp&nbsp&nbsp&nbsp(3) Conditional, if the musician can buy and learn expensive synthesizer software or hardware
+				<br>We are building an algorithm to create unique samples for use in music production. 
+				Using Tensorflow Keras and Python, we developed an encoder decoder model to recreate samples; 
+				we are now using this model to combine embeddings of different samples to generate a new sample. 
+				I am leading this project with a team from the USC Center for Artificial Intelligence in Society (CAIS++). 
+				Track progress on the project with our
+				<a href="https://github.com/succculent/SampleGeneration">GitHub</a>.
+			</p>
+		</div>
+		<div class="aProject">
+			<h2>Pantea</h2>
+			<p>
+				With the recent outbreak of the Corona Virus, people everywhere in the word have been struggling to access medical resources they need. 
+				We wanted to tackle this problem specifically for natural disasters and other events which bottleneck access to resources.
+				Pantea is a livestreaming and diagnostic web tool.
+				Users can check to see what disease or injury their symptoms may suggest using our computer vision and questionare diagnosis tool.
+				Once they have been diagnosed, they will be directed towards a hub of resources such as articles, videos, and live-streams about their diagnosis and what they can do for immediate attention.
+				The livestreaming was set up in a swift application in which doctors can scan a QR code on the website and immedietaly begin streaming. 
+				We also added a data tracking feature which helps collect information about natural disasters and disease outbreaks to optimize where resources are sent.
+				Our project created a working prototype using OpenAI API, Mux API, Swift, and Node.js. 
+				This project was submitted to Hack SC 2020. 
+				See the project with our
+				<a href="https://devpost.com/software/pantea">Devpost</a> or our
+				<a href="http://pantie.tech/">website</a>.
+			</p>
+		</div>
+		<div class="aProject">
+			<h2>Juicy Apple</h2>
+			<p>
+				The food industry uses enormous amounts of natural resources and money shipping rotten fruit using expensive, cooled, transportation methods. 
+				These rotten fruits get thrown away when they arrive at a consumer-facing store.
+				Sorting fruit earlier in the supply chain would significantly reduce carbon emissions to transport produce.
+				We developed a program to detect rotten fruit in realtime and give the coordinates to the fruit allowing for automation of rotten fruit removal much earlier in the supply chain. 
+				Our project created a working prototype using Google Cloud Vision as well as GCP Image Detection and Classification models. 
+				This project won the iTradeNetwork award at LA Hacks Hackathon 2019. 
+				See the project with our
+				<a href="https://devpost.com/software/juicy-apple">Devpost</a>.
+			</p>
+		</div>
+		<div class="aProject">
+			<h2>E-LEAP-Ments</h2>
+			<p>
+				The games industry is constantly looking for new ways to interact with the user in a more engaging and exciting way. 
+				LEAPmotion technology was developed to improve both human computer interactions and increase access to these interactions through cheaper technology.
+				This technology unfortunetaly is not breaking through in the game industry.
+				We realized the potential it has for creating very unique and engaging games.
+				E-LEAP-Ments is a puzzle game with an idea similar to code breaker, except you are also battling an enemy. 
+				Master the elements and find the correct order of moves before your AI opponent to win as fast as possible.
+				Our two greatest achievements in this project were
+				<br>&nbsp&nbsp&nbsp&nbsp(1) the integration of the LEAP-motion api within both Unity and our reinforcement learning AI and
+				<br>&nbsp&nbsp&nbsp&nbsp(2) the development of a reinforcement learning AI opponent which begins at 0 knowledge and learns at the rate at which the user is learning.
+				This project won the Twillio award at SB Hacks V in 2019. 
+				See the project with our
+				<a href="https://devpost.com/software/e-leap-ments-leap-motion-ai-game">Devpost</a>.
+			</p>
+		</div>
 	</div>
 </body>
 
