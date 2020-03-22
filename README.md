@@ -1,7 +1,5 @@
-# website.io #
 # Personal Website #
-
-## This is my personal website :) ##
+This is my personal website :)
 
 This code is always a work in progress, any issues added to the repo would be appreciated. 
 
