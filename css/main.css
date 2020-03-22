@@ -3,7 +3,7 @@ html, body {
 	overflow-x: hidden;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
 	.sidenav {
 		overflow: hidden;
 		background-color: white;
@@ -34,7 +34,7 @@ html, body {
 	}
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 741px) {
 	.sidenav {
 		margin: 0;
 		position: absolute;
