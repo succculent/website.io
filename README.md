@@ -3,6 +3,9 @@ This is my personal website :)
 
 This code is always a work in progress, any issues added to the repo would be appreciated. 
 
+## Current goals: ##
+	-Fix mobile version
+
 ## Future goals: ##
 	-Adding photography page
 	-Adding music page
