@@ -3,15 +3,11 @@ html, body {
 	overflow-x: hidden;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 800px) {
 	.sidenav {
 		overflow: hidden;
 		background-color: white;
 		position: relative;
-	}
-
-	.sidenav #myLinks {
-		display: none;
 	}
 
 	.sidenav a {
@@ -34,7 +30,7 @@ html, body {
 	}
 }
 
-@media screen and (min-width: 741px) {
+@media screen and (min-width: 800px) {
 	.sidenav {
 		margin: 0;
 		position: absolute;
